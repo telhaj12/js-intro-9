@@ -1,0 +1,83 @@
+Array :
+    -collection of data store as elemtents 
+    -each element will be assigneed an index by which you can update,move, delete
+
+    Array First and Last elements 
+    array[0]  will always return first elements
+    array[array.length - 1] will always return last element 
+
+
+
+    modulus -> Remainder 
+    num1 % num2
+
+    
+
+    + operator confusion 
+    1.+ is used for concatenation 
+    2. + is used for addition 
+
+
+    1 + 1 =>2
+    '1' + '1' => '11'
+    1 + '1' => '11'
+    '1' + 1 => '11'
+
+
+
+    '1' + 1 + 1    => '111'
+    
+    '1' + (1+1)  => '12'
+
+    3 * 5  => 15
+    '3' * '5'  =>15
+    '15' / '5' => 3
+
+
+'abc' * 'xyz' => NaN (not a number)
+
+
+
+
+note: be careful with + and - operations due to the + being used for both concatenation and addition.
+
+'1' - 1 + 1     => 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+    const numbers = [10, -3, 25, 67, 99, 100.99];
+
+    // you can get array size with the length property
+    console.log(numberes.length); // 6
+
+    /* 
+    Fetch and console log 25, 67, 100.99 elements froom the array with their indexes 
+    */
+
+    console.log(numbers[2]);
+    console.log(numbers[3]);
+    console.log(numbers[5]);
+
+
+
+
+
+
+
+console.log(typeof names);
+console.log(typeof of numbers);
+console.log(typeof []) //empty array
+
+
+
+

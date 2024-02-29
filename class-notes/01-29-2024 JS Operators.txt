@@ -1,0 +1,112 @@
+Comparison operators 
+2 == 2      -> true 
+5 - 2 == 3  -> true 
+2 * 5 == 20 / 2 -> true 
+
+5 != 2  -> true 
+2 != 2  -> false
+
+'3' == 3     -> true
+'3' === 3     -> false 
+
+Note: == is used to check if 2 values are equal or Not
+=== is used ti check if 2 values with their data types are equal or not
+
+3 === 3     ->true
+'3' === '3'     ->true 
+"hello" === "hello"     -> true 
+"Hello === "hello       -> false 
+
+3 !== '3'    ->true 
+
+
+3 < 5   -> true 
+5 * 2 < 10 % 2  -> false
+
+
+et x = 10, y = 20, z = “10”;
+x == z;     -> true 
+x === z;    -> false
+y < z;      -> false 
+x <= y;     -> true 
+x >= z;     -> true 
+y > x;      -> true 
+x >= y;     -> false 
+(x >= z) < y;   -> true 
+
+
+
+
+Falsy values 
+0 (in javascript 0 can be considered as false)
+[]
+{}
+NaN
+''
+undefined 
+null
+
+
+Truthy
+anything that isn't falsy is considered truthy 
+
+-1 && true  -> true 
+
+
+
+Logical Operators 
+&&  -> and 
+||  -> or 
+!   -> not
+
+
+true && true        -> true 
+true && false       -> false 
+false && true       -> false 
+false && false      -> false 
+
+Note: with &&, you will get the result true only if both expressions are true.
+you will get false in any other case
+
+
+true || true    -> true 
+true || false   -> true 
+false || true   -> true 
+false || false  -> false
+
+Note: with ||, you will get the result true when one or both expressions are true. 
+the only way you will get false is if both expressions are false. 
+
+'' || null || undefined || 0 || NaN || false    -> false 
+
+true && 2 == 2 && 5 && !false && !(2>5)     -> true 
+
+2 > 5 || !true || (3==='3' && !false)       -> false  ( this is an interview question)
+
+!(!(!false) && 3 !== 3) || 10 >= 5      -> true (easy, when you have true on one side of or, 
+the result is true. automatically)
+
+
+
+null || true    -> true 
+undefined || true -> true 
+0 || true   -> true 
+NaN || true     -> true 
+
+
+
+
+null ?? true    -> true 
+undefined ?? true   -> true 
+0 ?? true   -> 0 
+NaN ?? true     -> NaN
+'' ?? true  -> ''
+
+
+?? is going to result in first expression if the first expression is not null or undefined 
+
+
+null ?? anything -> anything 
+undefined ?? anything -> anything 
+
+anything that is not null/undefined ??  -> anything not null/undefined

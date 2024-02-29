@@ -1,0 +1,46 @@
+
+
+
+JS Functions
+
+
+Getting the middle char for a string that has an odd length 
+
+string      length      middle-index
+Mustafa     7           3
+James       5           2
+ABC         3           1
+
+(str.length - 1) - 2 = middle index of odd string 
+
+srt[(str.length - 1) - 2]
+
+
+Getting the middle two char for a a string which has even length
+
+1. using [] property access
+string      length      Middle-index
+John        4           12              str[(str.length / 2) -1],  str[str.length / 2]
+Jennifer    8           34              str[(str.length / 2) -1],  str[str.length / 2]
+Toyota      6           23              str[(str.length / 2) -1],  str[str.length / 2]
+
+
+
+2. using slice() method (PREFERRED)
+string      length      Middle-index
+John        4           12          str.slice(1, 3)   str.slice(str.length / 2 - 1, str.length / 2 + 1)
+Jennifer    8           34          str.slice(3, 5)     str.slice(str.length / 2 - 1, str.length / 2 + 1)
+Toyota      6           23          str.slice(2, 4)     str.slice(str.length / 2 - 1, str.length / 2 + 1)
+
+
+
+use slice()  when getting multiple characters
+do not use at() or charAt() [] when using multiple characters
+
+
+
+Getting first2 and last 2 and everything in the middle of the string 
+string      length      first2              last2                       middle 
+Toyota                str.slice(0, 2)       str.slice(-2)               str.slice(2, -2)
+Mercedes        Vstr.slice(0, 2)       str.slice(-2)               str.slice(2, -2)
+Tesla               str.slice(0, 2)       str.slice(-2)               str.slice(2, -2)

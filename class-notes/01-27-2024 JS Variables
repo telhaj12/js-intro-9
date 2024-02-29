@@ -1,0 +1,82 @@
+RECAP
+
+Note: let is mutable (you can change it)
+
+let address = "Chicago";
+address= "Miami"; // allowed
+
+
+const does not change ie SSN, Pi, 
+
+const pi = 3.14;
+pi = 5; // not allowed 
+
+
+Declaration 
+let address;
+const you must give value immediately 
+const pi = 3.14;
+
+
+
+Assignment 
+address = 'Chicago'
+
+
+
+
+Reassignment 
+updating the current address or assignment 
+address = 'Miami';
+
+
+
+
+Initialization = declaration + assignment 
+let address = 'Chicago';
+
+
+
+VARIABLE NAMING RULES 
+    Syntax:
+        -the first character of the variable cannot be a digit. digits can be used after first character
+        - spaces are not allowed in variable name ie let first name = 'John';
+        -only special characters allowed are _, $. 
+        -reserve keywords cannot be used as the first characters ie var let const static byte
+        - do not use a variable name twice, it will be a compiler (syntax error)
+
+
+
+    Conventions:
+            -camelCase rule for naming variables that has multiple 
+            -usually start with lower case
+            -variables should have meaningful names 
+            -
+
+
+
+
+    mac: option+shift+down arrow 
+
+
+
+    DATA TYPES 
+    Primitive: simplest informations type of data
+    -string data (texting)
+    -number data
+    -bigint 
+    -bolean (yes no questions true false, only two values) 
+    -undefined 
+    -null
+    -symbol
+
+
+    Reference data types: thousands built-in
+        -These are more complex compared to Primitive
+        - arrays, functions, objects, collections, date, time...Etc
+
+    
+
+    let name; // undefined 
+    let name = null; // absence of data
+

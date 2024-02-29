@@ -1,0 +1,48 @@
+
+
+
+String: 
+    - anything represented in quotes ('', "", ``) - sequence of characters (a-z, A-Z, 0-9, specials)
+
+    '' - empty string , "  ", "123", 'true' - all strings
+    -string is a primitive data type
+    -string concatenation-(+)
+
+        'abc' + '12' + "xy"  -> 'abc12xy'
+
+    string templates - template literals (interpolation ie ${})  -ES6
+
+    let price = 2 ;
+    let quantity = 5;
+    let message = `I bought ${quantity} apples for $${price * quantity}.';
+
+    console.log(message); // 'I bought 5 apples for $10.'
+
+    - We can convert string to numbers-
+    let str = '15.5';
+    
+    console.log(5 + str); // '515.5'
+    console.log(5 + Number(str)); // 20.5
+    consoole.log(5 + parseInt(str)); // 20 
+    console.log(5 + parseFloat(str)); // 20.5
+
+
+
+    Property access v chartAt() method
+    -property access return undefined for invalid indexes while charAt returns ('')
+
+
+at() vs charAt()
+-at() method can take negative indexes and returns the character from the end of the indexes
+at(-1) returns the last character
+at(-2) returns the second to last character
+
+-charAt() always returns empty string ('') for the negative indexes
+
+-NOTE: for the indexes more than or equals the lenght of the string, at() returns undefined 
+while charAt() returns empty string 
+
+search the string for the keys 'Java' in the second half of the string
+ 'JavaScript is awesome!'.includes('Java', 11) false
+
+    

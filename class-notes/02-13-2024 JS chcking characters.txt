@@ -1,0 +1,22 @@
+
+
+
+ASCII:
+
+character           ASCII decimal
+space               32
+diigts[0-9]         48-57 (inclusive)
+upper case[A-Z]     65-90 (inclusive)
+lowercase[a-z]      97-122 (inclusive)
+
+
+charCodeAt(index)  -> ASCII Decimal representation of 
+
+
+
+Special Character 
+Not space
+Not letter
+Not digit 
+
+

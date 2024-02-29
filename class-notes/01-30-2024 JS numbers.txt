@@ -1,0 +1,73 @@
+RECAP 
+
+== v === // two equals is loose comparison, three equals is strict comparison
+!= v !==
+
+2 == '2'   -> true 
+2 ==='2'    -> false
+
+
+2 != '2'    -> false 
+2 !== '2'   -> true
+
+
+||    
+??
+falsy values: false, 0, null, undefined, '', NaN
+
+null ?? x       -> x
+undefined ?? x  -> x
+
+null || false   -> false
+
+
+
+JS Numbers: floating numbers (decimals)  and absolute numbers (whole numbers)
+
+number: 64 bits
+bigint: 64 bits+
+
+
+
+ceil(10.99) -> goes to nearest integer -> 11
+ceil (10.01) -> 11
+
+floor(10.99) -> 10
+floor(10.99) -> 10
+
+
+round(10.51) -> 11
+round(10.49) -> 10
+
+
+trunc(10.99) -> 10
+trunc(10.01) -> 10
+
+trunc means just get rid of the decimal point
+
+
+Generate a random number between 5 and 8 both inclusive.
+5, 6, 7, 8
+
+Math.random() * 4 
+
+7 and 28
+biggest number - smallest number + 1
+22
+
+Generate a random nunber between a and be
+We assume a is less than be
+
+Math.random() * (b - a + 1)
+
+Math.floor(Math.random() * (b - a + 1))
+
+0 + 7 = 7
+1 + 7 = 8
+2 + 7 = 9
+
+
+
+Generate a random number between 123 and 267
+
+Math.floor(Math.random() * (267 - 123 + 1))

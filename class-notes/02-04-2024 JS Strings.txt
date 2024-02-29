@@ -1,0 +1,66 @@
+
+
+
+RECAP:
+string is built-in object in Javascript and provides us many methods and properties 
+that we can use and manipulate the data stored as a string
+
+
+Property:
+    -lenght
+
+    let name = 'James';
+
+    name.length; // 5
+    typeof name.lebgth; // number
+
+    Methods: 
+        -concat() is used to combine strings together.
+
+    Extracting characters by their indexes (indices)
+        - [index] is used to retrieve the character found at given index 
+            name[2]; // 'm'
+
+            -charAt(index) isa used to retrieve the character found at a given index
+            name.charAt(2); // 'm'
+
+            at(index) is used to retrieve the character found at given index    
+            name.at(2); // 'm'
+
+
+            Difference:
+            -what they return in case the index is positive and not valid
+            -what they return in caase the index is negative   
+                name[5]; // undefined
+                name.charAt(5); // ''
+                name.at(5); // undefined 
+                name[-1]; // undefined
+                name.charAt(-1); // ''
+                name.at(-1); // 's'
+
+    -startsWith() is used ti check is the string starts with a specified substring
+        name.startsWith('J'); // true
+        name.startsWith('Jam'); // true 
+        name.startsWith('jam') // false
+    
+    -endsWith() is usde to check is the string ends with a specified substring
+
+    -includes() is used to check is the string contains a specified substring 
+        name.includes('J'); // true 
+        name.includes('mes   '); // false
+
+
+
+        Mock-01
+        February 18, 2024
+
+        practice on -> https://techglobal-training.com/login
+
+        Username: techglobal
+        password: Test1234!
+
+
+        
+
+
+

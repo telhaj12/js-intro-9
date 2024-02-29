@@ -1,0 +1,161 @@
+
+
+Array: It is a reference type and it is used to store multiple data
+
+numbers Array
+const = [1, 5, 9, 17];
+
+booleans Array
+const = booleans = [true, false, 2 === 2, 'Hello' == 'Hi'];
+
+mixed data in array
+const datas = [6, 'Hello', true, {}, null, undefined];
+
+
+length property 
+
+
+const arr = [ el1, el2, el3, el4 ];
+
+arr.length; // 4
+
+Arrays are stored using indexes - indexes start from zero
+
+NOTE: invalid indexes will return undefined
+
+1. at() method
+TASK: used to retrieve an element from an array using its index
+RETURN: an element found at a given index
+ARGUMENTS: it takes an index as an argument 
+STATIC/ NON-STATIC: non static
+Does it change original array: no
+
+
+2. isArray() method
+TASK: used to check if a variable is an array or not  
+RETURN: ot returns a boolean, it returns true if variable is an array or false otherwise
+ARGUMENTS: it takes an array or a variable as an argument
+STATIC/ NON-STATIC: STATIC
+Does it change original array: no
+
+
+
+3 push() method
+TASK: used to add one of more elements to the end of the array
+RETURN: returns the new length of the array after adding one or more elements
+ARGUMENTS: it takes one or more elements
+STATIC/ NON-STATIC: non-static 
+Does it change original array: yes
+
+
+
+4. pop() method 
+TASK: used to remove the last element in the array 
+RETURN: it returns the removed element
+ARGUMENTS: no argument
+STATIC/ NON-STATIC: non-static
+Does it change original array: yes
+
+
+
+5. UNSHIFT
+TASK: used to add an element to the start of the array 
+RETURN: it returns a new length of the array after adding one or more elements
+ARGUMENTS: it takes one or more elements
+STATIC/ NON-STATIC: non-static
+Does it change original array: YES
+
+
+
+
+
+6. SHIFT
+TASK: used to remove the first element
+RETURN: it returns the removed element
+ARGUMENTS: no argument
+STATIC/ NON-STATIC: non-static
+Does it change original array: yes
+
+
+
+7. INCLUDES()
+TASK:  Used to check if array contains the specified element
+RETURN: boolean, true if element is found or false otherwise 
+ARGUMENTS: takes one element 
+STATIC/ NON-STATIC: non-static 
+Does it change original array: NO
+
+
+
+8. indexOf() method
+TASK:  Used to check if array contains the specified element
+RETURN: it returns an index of a number which is the first occurence of the element or -1 if not found
+ARGUMENTS: takes one element as an argument
+STATIC/ NON-STATIC: non-static
+Does it change original array: NO
+
+
+
+
+9. lastIndexOf() method
+TASK:  Used to check if array contains the specified element
+RETURN: it returns an index of a number which is the last occurence of the element or -1 if not found
+ARGUMENTS: takes one element as an argument
+STATIC/ NON-STATIC: non-static
+Does it change original array: NO
+
+
+
+
+10. concat() method
+TASK: used to merge one or more arrays with another array
+RETURN: returns a new array, the merged array
+ARGUMENTS: takes one or more arguments (arrays or individual elements)
+STATIC/ NON-STATIC: non-static
+Does it change original array: no
+
+
+
+NOTE: Spread operator can also be used to mergre arrays into a new array 
+[...arr1, ...arr2, ...arr3]
+
+
+11. Reverse() methods
+TASK: it reverses the order of the elements in the array
+RETURN: returns the same array in the reverse order
+ARGUMENTS: no argument
+STATIC/ NON-STATIC: non static
+Does it change original array: yes
+
+
+12. slice() method
+TASK: used to retrieve a partial array from the original using begin and end (optional) indexes
+RETURN: returns new partial array
+ARGUMENTS: one or two indexes(start and end indexes, start is included while end is excluded)
+STATIC/ NON-STATIC: non static
+Does it change original array: no 
+
+
+13. splice() method
+TASK: used to add or remove elements anywhere within the array
+RETURN: returns the removed elements as an array
+ARGUMENTS: 2 or more arguments 
+    1st argument is the start index
+    2nd argument is the number of elements you want to remove including the start position-that is included
+    3rd... are the new elements to be added after the start position
+STATIC/ NON-STATIC: non-static
+Does it change original array: YES
+
+
+
+
+
+
+
+
+
+TASK: 
+RETURN:
+ARGUMENTS:
+STATIC/ NON-STATIC:
+Does it change original array:

@@ -1,0 +1,105 @@
+
+
+CLI : command line interface
+GUI: Graphical User interface
+
+MAC: Terminal
+
+
+Home Directory:
+Mac: /Users/{username}  Users/techglobal
+Windows: C:\Users\{username}
+
+Root Directory:
+MAC: /
+Windows: C:\
+
+
+Directory = Folder or Location
+
+PATH - Location of js-intro-9
+Users/techglobal/Desktop/js-intro-9
+
+
+1. Check your current Location
+MAC: pwd
+Windows: cd 
+
+2. List the folders and files in the current Location
+MAC: ls or ls -a (to see the hidden files as well)
+
+
+3. clear working space - Terminal or command
+Mac: clear command k
+
+4. Navigate into child Directory
+MAC & Windows: cd (directoryName)
+
+5. Navigate back to parent directory
+MAC and Windows: cd ..
+
+Move multiple steps:
+
+Child in MAC: cd {firstChild}/{secondChild}/{thirdChild}
+
+
+Parent in Mac: cd ../../..
+
+
+
+6. Creating new folders
+MAC: mkdir (directoryName)
+
+NOTE: If your folder has multiple words in the name 
+mkdir "{directoryName}"
+
+NOTE: If you want to create multiple folders at once
+mkdir {directoryName1} {directoryName2}
+
+
+7. deleting existing folders or directories which are empty
+MAC: rmdir (directoryName)
+
+
+NOTE: If your folder has multiple words in the name 
+rmdir "{directoryName}"
+
+NOTE: If you want to create multiple folders at once
+rmdir {directoryName1} {directoryName2}
+
+
+8. deleting existing folders or directories which are not empty
+
+MAC: rm -rf {directoryName}
+
+9. Naviagting to the root directory from anywhere
+MAC and windows: cd /
+
+
+
+10. Naviagting to the home directory from anywhere
+Mac: cd ~
+Windows: cd %userprofile%
+
+
+11. Creating new empty files
+MAC: touch {fileName}
+
+
+12. Deleting existing files 
+MAC: rm {fileName}
+
+
+
+13. Creating a new file with intital text
+MAC: echo "{content}" > {fileName}
+
+
+Visual Studio Code is an IDE 
+IDE: Integrated Development Environment (meaning it brings a lot of features together and it 
+makes things easier.)
+Extensions, terminal, console, debugging, ogranzing, folder structure 
+
+git config --global user.name "telhaj12"
+git config --global user.email tareq.elhaj.com
+git config --global init.defaultBranch main
