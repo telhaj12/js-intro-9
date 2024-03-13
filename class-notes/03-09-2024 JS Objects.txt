@@ -1,0 +1,8 @@
+
+
+
+Object: It is a reference data type and stores a collection a data using key value pairs.
+*** Keys must be unique (should not be duplicated)
+*** values can be null, undefined or duplicates
+*** keys are strings by default, while values can be of any type
+

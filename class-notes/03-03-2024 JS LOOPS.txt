@@ -1,0 +1,37 @@
+
+
+
+1. for loop: i as an index or character
+
+SYNTAX:
+
+for(initialization; termination_condition; update) {
+    // block
+}
+
+Iteration: Each time your loop executes
+INFINTE LOOP: This is a loop that has a logical mistake and does not stop
+
+2. while loops
+
+SYNTAX: 
+
+while(condition) {
+    // block
+}
+
+
+3. do-while
+-while loop checks the condition and if it is true, it executes the code
+-do-while loop executes the code block first, then checks the condition 
+-because of the differnence above, do-while wille xecute the code-block at least once all the time.
+
+SYNTAX:
+do {
+    // block
+} while(condition);
+
+
+LOOP CONTROL STATEMENTS:
+break: used to terminate the loop
+continue: is used to skip the Iteration 

@@ -69,10 +69,6 @@ for(let i = 0; i <= 50; i += 5) {
 }
 
 
-for(let i = 0; i <= 50; i++) {
-    if(i % 5 === 0) console.log(i);
-}
-
 for(let i = 1; i <= 10; i++) {
     console.log(i * 5);
 }
