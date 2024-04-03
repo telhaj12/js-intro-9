@@ -1,0 +1,10 @@
+
+
+MODULES 
+
+1. Before ES6 - Common JS Modules  -> module.exports / require
+    Works well with server-side application that runs with Node.js
+
+2. After ES6 - ES6 Modules  -> export / import
+    Broswers
+    
