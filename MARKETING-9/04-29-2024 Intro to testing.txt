@@ -1,0 +1,75 @@
+
+
+
+Software testing
+
+
+Titles:
+
+SDET -> Software Development Engineer in testing
+Software Engineer in Test 
+Software Development in Test 
+
+
+Automation Engineer
+QA Automation Engineer
+Automation Test Engineer
+
+
+Manual Tester
+QA Analyst
+QA Specialist
+QA Associate 
+
+
+Manual Testing: Human effort
+Automation Testing: Program - Scripts 
+
+
+
+Why automation testers are needed in Tech companies?
+
+Do automation testers do manual testing?
+20 % manual effort 
+
+Software: Anything that you use daily I.E. phone/computer/powerpoint/maps
+System Software: mac os, windows, ios, android
+Application Software: 
+
+Need/Problem -> Idea -> SDLC -> 
+
+Scrum v Kanban -
+scrum is time-boxed, Kanban is whenever you finish or flexible
+
+Atlassian:
+JIRA - confluence - Bitbucket
+
+
+Sprint: 2 week time period
+
+Sprint: assign user stories to developers and testers
+Daily Standup: share status with other team members
+Backlog Grooming - Refinement: refine our backlog for the future sprints
+Retrospective: Look back on what we did wrong to improve on future sprints
+    evaluation of the previous sprints
+Demo-review: demo- showcase what you did well   
+
+SRS: requirement documents - SA - PO - Client
+EPIC: example: amazon cart
+User Story: 
+PO or BA writes user stories -> maintain backlog 
+-Acceptance Criteria - or requirements
+
+TEST CASE: 
+Description - Make sure user can add one prodcut
+Steps - 
+Actual and expected results
+
+Be specific when writing test cases!!!
+
+
+
+When asked an interview question for a defintion, always start with a broad answer. 
+answer the question as if the person just met you. 
+Then get in to the details. 
+
