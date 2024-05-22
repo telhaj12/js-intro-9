@@ -135,4 +135,4 @@ console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
 console.log(findLongestWord("This is a sample string for testing"));
 console.log(findLongestWord("One two ten"));
 console.log(findLongestWord(""));
-console.log(findLongestWord("      "));
+console.log(findLongestWord("      ")); 
